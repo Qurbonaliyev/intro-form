@@ -6,9 +6,138 @@ body{
     padding: 0;
     margin: 0;
     flex-direction: column;
-    font-family: "roboto" , 'sans-serif';
+    font-family: "inter" , 'sans-serif';
     color: black;
     background-color: white;
     line-height: 24px;
     font-size: 15px;
+}
+
+.container{
+    max-width: 1180px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+    display: flex;
+    padding-top: 80px;
+    
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    
+}
+.wrapper-first {
+    max-width: 570px;
+    padding:55px 121px 203px 60px;
+    
+    background-image: url(../img/info.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-wrapper{
+    display: flex;
+}
+.first-title{
+    width: auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.8;
+    border: 1px solid #FFFFFF;
+    border-radius: 41px;
+    padding: 5px 15px;
+}
+.title-first-wrapper {
+    max-width: 389px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    
+}
+.paragraph-first-wrapper {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+.button-price{
+    width: auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: #4dc490;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+/* start last wrapper */
+.wrapper-last {
+    text-align: center;
+    padding: 55px 60px 40px 60px;
+}
+.last-wrapper-title {
+    text-align: start;
+    padding-bottom: 79px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column; 
+}
+
+.input{
+    margin-bottom: 35px;
+    padding-bottom: 14px;
+    border: none;
+    border-bottom: 1px solid #555555;
+    text-transform: capitalize;
+    outline: none;
+}
+.input:hover{
+    opacity: 0.8;
+}
+.input:active{
+    font-weight: 700;
+    color: #0000;
+    
+}
+.input:nth-child(4){
+    margin-bottom: 63px;
+    
+}
+
+.last-button {
+    padding: 20px 150px;
+    background-color: #655AF2;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.caution-paragraph {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+.caution{
+    text-decoration: none;
+    color: #F03535;
+    border-bottom: 1px solid #F03535;
 }
